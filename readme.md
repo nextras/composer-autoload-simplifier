@@ -32,7 +32,7 @@ Update your project's `composer.json`:
 ### Example of Simplified Autoloader
 
 ```php
-<?php declare(strict_types = 1)
+<?php declare(strict_types = 1);
 
 (function () {
 	$requireClassScoped = function (string $path) {
